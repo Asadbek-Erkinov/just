@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  font-family: "Mulish", "Arial", sans-serif;
+}
+
+.container {
+  width: 1257px ;
+  margin-inline: auto;
+  padding-right: 20px;
+  padding-left: 20px; 
+}
+
+.site-header {
+  margin-top: 61px; 
+}
+
+.header-inner {
+  display: flex;
+}
+
+.logo-link {
+  margin-right: auto;
+  
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+.navbar {
+  /* width: 545px; */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 40px;
+}
+
+.navbar-link {
+  text-decoration-line: none;
+  color:  #1F1534;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-link:hover {
+  border-color: #458FF6;
+  color: #458FF6;
+}
+
+
+
+.about-link {
+  margin-right: 0;
+}
+
+.hero-section {
+  margin-top: 107px;
+  margin-bottom: 192px; 
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text-heading {
+  width: 445px;
+}
+
+.hero-title {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.hero-text {
+  color: #7D7987;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  
+}
+
+.hero-link {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  border-radius: 55px;
+  background: #458FF6;
+  text-decoration-line: none;
+  padding: 14px 28px;
+}
+
+.hero-link:hover {
+  background-color: #fff;
+  color: #458FF6;
+  border-color: #458FF6;
+  border-style: solid;
+} 
+
+.hero-link:active {
+
+}
+
+.services {
+  
+}
+
+.services-title-inner {
+  width: 952px;
+  margin-inline: auto;
+  margin-bottom: 80px;
+}
+
+.services-title {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+}
+
+.services-text {
+  color: #7D7987;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;   
+}
+
+.services-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  
+}
+
+.service-list-item {
+  width: 350px;
+}
+
+.service-list-img {
+  
+}
+
+.service-list-title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; 
+}
+
+.service-list-text {
+  color: #7D7987;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.service-title-wrap {
+  width: 261px;
+}
+
+.service-wrap {
+}
+
